@@ -3,17 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./js/functions.js"></script>
+    <script src="./js/functions.js" defer></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="items">
-      <div class="item active"><img src="./img/01.webp" alt="" /></div>
-      <div class="item"><img src="./img/02.webp" alt="" /></div>
-      <div class="item"><img src="./img/03.webp" alt="" /></div>
-      <div class="item"><img src="./img/04.webp" alt="" /></div>
-      <div class="item"><img src="./img/05.webp" alt="" /></div>
+      <img src="./img/01.webp" class="item active" alt="" />
+      <img src="./img/02.webp" class="item" alt="" />
+      <img src="./img/03.webp" class="item" alt="" />
+      <img src="./img/04.webp" class="item" alt="" />
+      <img src="./img/05.webp" class="item" alt="" />
+    </div>
+    <div>
+      <button id="prev">Previous</button>
+      <button id="next">Next</button>
     </div>
   </body>
 </html>

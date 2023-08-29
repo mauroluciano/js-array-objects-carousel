@@ -3,10 +3,12 @@
   margin: 0;
 }
 
-.active {
-  display: block;
-}
-
 .item {
   display: none;
+  width: 800px;
+  height: 600px;
+}
+
+.active {
+  display: block;
 }
